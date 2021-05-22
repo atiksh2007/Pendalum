@@ -43,7 +43,7 @@ function setup() {
 
 function draw() {
   rectMode(CENTER);
-  background("red");
+  background("white");
   roofObject.display();
 
   
@@ -53,13 +53,18 @@ function draw() {
   rope4.display();
   rope5.display();
 
+  fill("orange")
   bob5.display();
+  fill("red");
   bob1.display();
+  fill("blue");
   bob2.display();
+  fill("lime");
   bob3.display();
+  fill("yellow");
   bob4.display();
   console.log(bob1)
-  fill("white");
+  fill("pink");
   textSize(55)
   text("NEWTON’S CRADLE",150,100);
   text()
